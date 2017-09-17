@@ -221,7 +221,7 @@ public class OnePlusNLayoutActivity extends Activity {
             layoutHelper = new GridLayoutHelper(2);
             layoutHelper.setMargin(0, 10, 0, 10);
             layoutHelper.setHGap(3);
-            layoutHelper.setAspectRatio(3f);
+            layoutHelper.setAspectRatio(2f);
             adapters.add(new SubAdapter(this, layoutHelper, 2));
         }
 
